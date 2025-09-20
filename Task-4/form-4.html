@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form 4</title>
+</head>
+<body>
+    <header>
+        <center><h1>Register Here</h1></center>
+    </header>
+    <hr>
+    <br><br><br>
+    <form>
+        <table align="center" bgcolor="silver" cellspacing="5px" cellpadding="5px">
+            <thead>
+                <tr>
+                    <th align="left">Registration Form</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <label for="First Name">First Name</label>
+                </td>
+                <td>
+                    <label for="Last Name">Last Name</label>
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <input type="text" id="First Name" name="First Name" placeholder="Enter First Name" required>
+                </td>
+                <td>
+                    <input type="text" id="Last Name" name="Last Name" placeholder="Enter Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Birthday">Birthday</label>
+                </td>
+                <td>
+                    <label>Gender</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" id="Birthday" name="Birthday">
+                </td>
+                <td>
+                    <input type="radio" name="Male" value="Male">Male
+                    <input type="radio" name="Male" value="Female">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id4">Email</label><br>
+                </td>
+                <td>
+                    <label for="Phone Number">Phone Number</label>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="Email" name="Email" placeholder="Enter Email" required>
+                </td>
+                <td>
+                    <input type="number" id="Phone Number" placeholder="Enter Phone Number" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Subjects">Subjects</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="Subjects" id="Subjects" style="width: 350px;">
+                        <option value="Select">Select</option>
+                        <option value="JAVA">JAVA</option>
+                        <option value="PYTHON">PYTHON</option>
+                        <option value=".NET">.NET</option>
+                        <option value="devops">devops</option>
+                        <option value="AWS">AWS</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit">
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </form>
+    
+</body>
+</html>
